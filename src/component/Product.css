@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    margin: 10px 0;
+}
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section div {
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: -20px;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+p {
+    text-align: center;
+}
+img:hover {
+    transform: scale(1.1);
+}
